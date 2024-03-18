@@ -33,7 +33,7 @@ declare module "@formfusion/tin" {
     [K in keyof T as K extends string ? Lowercase<K> : never]: T[K];
   };
 
-  type tin = LowercaseKeys<Tin>;
+  const tin: LowercaseKeys<Tin>;
 
   export = tin;
 }
