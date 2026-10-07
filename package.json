@@ -1,6 +1,6 @@
 {
   "name": "@formfusion/tin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Set of validation rules for worldwide TIN numbers used for the formfusion (form management & validation) library",
   "private": false,
   "scripts": {
